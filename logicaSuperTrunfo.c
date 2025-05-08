@@ -93,7 +93,7 @@ int main() {
     // Comparação individual
     int pontos1 = 0, pontos2 = 0;
 
-    if (escolha1 == 4) { // densidade (vence menor)
+    if (escolha1 == 4) { 
         if (v1c1 < v1c2) pontos1++;
         else if (v1c2 < v1c1) pontos2++;
     } else {
